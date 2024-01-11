@@ -1,2 +1,66 @@
-bla bla bla
-vim não, de jeito nenhum. essa merda é do capiroto...
+GIT - Roteiro
+
+1 - O que é o Git? Qual a origem?
+2 - O que é o Github, Gitlab, Bitbucket
+3 - Instalação do Git
+4 - Definição de Nome e Email - Variáveis globais
+=============== Comandos Git ===================
+Git version
+Trabalhando com o Git - Repo Local (Working Directory -> GIT ADD -> Staging Area -> GIT COMMIT -> Local Repo)
+Git init (Criar diretório .git com toda a sua estrutura)
+Git add (Adiciona arquivos Working Directory à Staging Area)
+Git status (Mostra o tracking dos comandos)
+Git branch
+Git checkout
+Git merge (Efetua o mer)
+Git merge / fast forward
+Git merge / fast forward
+Git merge / fast forward
+Git Commit (Persiste os arquivos existentes da Staging Area para o repositório local)
+Git log (Verifica os commits do histórico do versionamento local)
+Git rm (Remove o arquivo do repositório)
+Git reset soft ()
+Git reset mixed ()
+Git reset hard ()
+Git rebase ()
+Git stash "nome do stash" ()
+Git stash list ()
+git stash drop ()
+git stash pop ()
+Git cherrypick (Aplica as alterações da branch selecionada para a branch atual de trabalho)
+Git switch ()
+Git fetch/pull/push/update
+
+Trabalhando com o Git - Remoto (Remote Repository)
+
+stash = área de armazenamento de código sem a necessidade de commit
+git stash save   = criar uma entrada no stash de arquivos
+git stash apply  = trazer de volta os arquivos
+git stash list   = 
+git stash drop   = 
+git stash pop    = 
+git stash branch = criar uma branch a partir do stash
+*git = todos os commits são locais
+git push = empurrar, atualiza uma referência remota a partir de uma referência local
+git remote add origin https://github.com/leandromedeiros007/gitpresentation
+git remote -v = 
+git push origin master = 
+git pull = puxar, atualizar as referências locais a partir de uma remota. Combinação Fetch + Merge
+git pull orgin master
+git clone https://github.com/meuusuario/gitpresentation gitpresentation2 
+git log --oneline --decorate --all --graph
+git diff master
+git reset
+ - soft 
+ - mixed 
+ - hard
+
+git reset --soft XXXXX = não remove arquivo da staging área
+git reset --mixed XXXXX = remove arquivo da staging área
+git reset --hard XXXXX = limpa o working directory
+git reflog
+git push origin master -f
+
+
+3a61ca6
+15cc565
